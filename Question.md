@@ -39,12 +39,10 @@ Here are examples to illustrate the usage of these comparison operators in Mongo
 
 "$ne" (not equal) - Matches values that are not equal to a specified value:
 
-
      db.users.find({ age: { $ne: 30 } });
      This query finds all documents in the "users" collection where the "age" field is not equal to 30.
 
      "$gt" (greater than) - Matches values that are greater than a specified value:
-
 
      db.users.find({ age: { $gt: 25 } });
      This query retrieves all documents in the "users" collection where the "age" field is greater than 25.
